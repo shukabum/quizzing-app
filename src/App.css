@@ -1,5 +1,3 @@
-/* styles.css */
-
 :root {
   --background-color-light: #e0f7fa;
   --background-color-dark: #263238;
@@ -42,9 +40,13 @@ body {
 }
 
 .container {
+  /* display: flex; */
+  /* justify-content: center; */
   max-width: 800px;
   margin: 0 auto;
   padding: 20px;
+  /* background-color: red; */
+  /* z-index; */
 }
 
 h1 {
@@ -106,7 +108,13 @@ li::before {
   background-color: #fff;
   border: 1px solid #4caf50; 
   border-radius: 10px;
-  
+  /* height: fit-content;
+   */
+   /* display: flex;
+   flex-direction: column;
+   justify-content: center; */
+   /* align-items: center; */
+   /* width: 50%; */
   margin: 20px 0;
   padding: 3rem;
 }
@@ -149,7 +157,6 @@ dark-mode {
   color: var(--text-color-dark);
 }
 
-/* ... (rest of the styles remain the same) */
 
 .dark-mode button {
   background-color: var(--green-text-color-light);

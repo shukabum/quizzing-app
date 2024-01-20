@@ -39,7 +39,8 @@ const Quiz = ({ quizType, student, updateLeaderboard,onLogout,leaderboard,viewOn
       }}>
       <h2>{quizType}</h2>
       <button onClick={handleLogout} style={{
-        height:'fit-content'
+        height:'fit-content',
+        background:"red"
       }}>Logout</button>
         </span>
       {!quizFinished &&!viewOnly ? (
