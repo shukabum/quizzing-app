@@ -194,3 +194,66 @@ dark-mode {
     margin: 10px 0;
   }
 }
+/* leaderboard design */
+
+
+
+
+/* Custom styles for math symbols */
+.math-symbol {
+  font-size: 1.5rem;
+  margin-right: 5px;
+}
+
+
+.score {
+
+  font-weight: 900;
+  color: #006400; /* Dark green color */
+}
+.leaderboard {
+  background-color: var(--list-item-background-light);
+  border: 1px solid var(--list-item-border-color-light);
+  border-radius: 10px;
+  padding: 20px;
+  margin-top: 20px;
+  overflow: hidden; /* Clearfix to contain floated elements */
+}
+
+.leaderboard h3 {
+  color: var(--medium-text-color-light);
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+/* Table styles */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  border-radius: 1rem;
+  margin-top: 10px; /* Adjust margin as needed */
+}
+
+thead th {
+  background-color: var(--list-item-background-light);
+  border: 1px solid var(--list-item-border-color-light);
+  /* border-radius: 1rem; */
+  padding: 10px;
+  font-weight: bold;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  text-align: left;
+}
+
+tbody tr {
+  border: 1px solid var(--list-item-border-color-light);
+  border-radius: 1rem;
+}
+
+tbody td {
+  
+  padding: 10px;
+  font-weight: 700;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+}
+
